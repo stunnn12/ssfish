@@ -1,0 +1,22 @@
+{
+  "name": "tiny-tides",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Đảo Câu Cá (Tiny Tides) – game câu cá 3D low-poly cho YouTube Playables",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node tools/check-bundle.mjs",
+    "preview": "vite preview",
+    "playables": "npm run build && vite preview",
+    "check-bundle": "node tools/check-bundle.mjs",
+    "check-data": "node tools/check-data.mjs",
+    "reel-sim": "node tools/reel-sim.mjs"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "vite": "5.4.11"
+  }
+}

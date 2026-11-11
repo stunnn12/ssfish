@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1, "name": "Vịnh Khởi Đầu", "port": "Đảo Làng Chài", "basePrice": 10, "difficulty": [1, 4],
+    "avgCoin": 40, "baitPriceMult": 1, "portAngle": 0.0,
+    "theme": {
+      "props": "village", "precip": "rain", "islandRadius": 22, "islandHeight": 9,
+      "skyTop": "#3f9fe8", "horizon": "#c4ebff", "shallow": "#5fe0d0", "deep": "#0f6a90",
+      "sand": "#f1d9a0", "ground": "#79c45a", "ground2": "#62ad4c", "rock": "#9b9183", "peak": "#8a8070"
+    },
+    "spots": [
+      {"id": "dock", "name": "Bến gỗ", "angle": 0.35, "desc": "Nước lặng cạnh bến, nhiều cá nhỏ ăn mồi.", "favor": ["F001", "F005", "F008", "F014", "F016"]},
+      {"id": "beach", "name": "Bãi cát", "angle": 2.3, "desc": "Đáy cát nông, cá đáy thích kiếm ăn.", "favor": ["F004", "F006", "F012", "F015"]},
+      {"id": "river", "name": "Cửa sông", "angle": 4.3, "desc": "Nước lợ, cá nước ngọt và lươn tụ về.", "favor": ["F002", "F003", "F007", "F009", "F010", "F011", "F018"]}
+    ]
+  },
+  {
+    "id": 2, "name": "Rạn San Hô", "port": "Đảo San Hô", "basePrice": 50, "difficulty": [2, 5],
+    "avgCoin": 230, "baitPriceMult": 2, "portAngle": 0.0,
+    "theme": {
+      "props": "coral", "precip": "rain", "islandRadius": 18, "islandHeight": 6,
+      "skyTop": "#3aa8f5", "horizon": "#d2f6ff", "shallow": "#7ff2dc", "deep": "#0a8aa0",
+      "sand": "#fff0c8", "ground": "#5ccf6a", "ground2": "#4bb85a", "rock": "#c9b89a", "peak": "#b8a888"
+    },
+    "spots": [
+      {"id": "reef", "name": "Rạn nông", "angle": 1.2, "desc": "San hô dày đặc, cá rạn rực rỡ.", "favor": ["F021", "F022", "F024", "F028", "F029", "F035", "F038"]},
+      {"id": "lagoon", "name": "Đầm xanh", "angle": 3.9, "desc": "Đầm nước trong, cá cảnh và đuối ó.", "favor": ["F023", "F025", "F027", "F031", "F033", "F036"]}
+    ]
+  },
+  {
+    "id": 3, "name": "Biển Khơi", "port": "Đảo Hải Đăng", "basePrice": 250, "difficulty": [3, 7],
+    "avgCoin": 1200, "baitPriceMult": 3, "portAngle": 0.0,
+    "theme": {
+      "props": "lighthouse", "precip": "rain", "islandRadius": 20, "islandHeight": 12,
+      "skyTop": "#3a86d6", "horizon": "#c2dcf2", "shallow": "#4aa8d0", "deep": "#0a3a6a",
+      "sand": "#d8c8a0", "ground": "#6aa85a", "ground2": "#5a9450", "rock": "#7a7a80", "peak": "#6a6a70"
+    },
+    "spots": [
+      {"id": "deep", "name": "Vùng nước sâu", "angle": 1.4, "desc": "Nước sâu thẳm, cá ngừ và cá kiếm săn mồi.", "favor": ["F041", "F043", "F044", "F049", "F050", "F055", "F056"]},
+      {"id": "wreck", "name": "Xác tàu", "angle": 4.1, "desc": "Quanh xác tàu đắm, cá đáy và mực ẩn nấp.", "favor": ["F045", "F046", "F048", "F053", "F054", "F058"]}
+    ]
+  },
+  {
+    "id": 4, "name": "Biển Băng", "port": "Đảo Băng Giá", "basePrice": 1000, "difficulty": [5, 9],
+    "avgCoin": 5500, "baitPriceMult": 5, "portAngle": 0.0,
+    "theme": {
+      "props": "ice", "precip": "snow", "islandRadius": 22, "islandHeight": 10,
+      "skyTop": "#7fb0e0", "horizon": "#e6f2ff", "shallow": "#8fcde4", "deep": "#16486a",
+      "sand": "#dfe6ee", "ground": "#f4f8ff", "ground2": "#e2ecf8", "rock": "#8a98a8", "peak": "#f8fbff"
+    },
+    "spots": [
+      {"id": "icehole", "name": "Lỗ băng", "angle": 1.3, "desc": "Câu qua lỗ băng, cá trích và mực băng.", "favor": ["F061", "F062", "F067", "F069", "F073", "F074"]},
+      {"id": "sealbay", "name": "Vịnh hải cẩu", "angle": 4.0, "desc": "Đàn hải cẩu săn cá hồi quanh vịnh.", "favor": ["F063", "F064", "F065", "F071", "F072", "F075"]}
+    ]
+  },
+  {
+    "id": 5, "name": "Vực Núi Lửa", "port": "Đảo Núi Lửa", "basePrice": 4000, "difficulty": [6, 10],
+    "avgCoin": 24000, "baitPriceMult": 8, "portAngle": 0.0,
+    "theme": {
+      "props": "volcano", "precip": "ash", "islandRadius": 24, "islandHeight": 24,
+      "skyTop": "#6a5a86", "horizon": "#f2b48c", "shallow": "#3f6e7c", "deep": "#0c2a38",
+      "sand": "#5a5050", "ground": "#3e3838", "ground2": "#4a4040", "rock": "#2e2a2a", "peak": "#26201f"
+    },
+    "spots": [
+      {"id": "abyss", "name": "Miệng vực", "angle": 1.5, "desc": "Bờ vực tối đen, cá biển sâu phát sáng.", "favor": ["F081", "F083", "F089", "F090", "F091", "F098"]},
+      {"id": "lava", "name": "Dòng dung nham", "angle": 4.2, "desc": "Nước ấm sủi bọt cạnh dòng dung nham.", "favor": ["F084", "F085", "F086", "F087", "F092", "F097"]}
+    ]
+  }
+]

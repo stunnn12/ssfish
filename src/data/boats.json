@@ -1,0 +1,18 @@
+{
+  "boats": [
+    {"id": "rowboat", "name": "Xuồng gỗ", "price": 0, "region": 1, "extraSlots": 0, "legTime": 0},
+    {"id": "sailboat", "name": "Thuyền buồm", "price": 3000, "region": 2, "extraSlots": 10, "legTime": 25},
+    {"id": "motorboat", "name": "Tàu máy", "price": 20000, "region": 3, "extraSlots": 20, "legTime": 20},
+    {"id": "icebreaker", "name": "Tàu phá băng", "price": 120000, "region": 4, "extraSlots": 35, "legTime": 15},
+    {"id": "submarine", "name": "Tàu lặn thép", "price": 600000, "region": 5, "extraSlots": 50, "legTime": 12}
+  ],
+  "skins": [
+    {"id": "default", "name": "Mặc định", "color": null, "req": null, "desc": "Màu gốc của thuyền."},
+    {"id": "bay", "name": "Ngư dân Vịnh", "color": "#3fa0d8", "req": {"type": "regionSpecies", "region": 1, "count": 20}, "desc": "Bắt đủ 20 loài ở Vịnh Khởi Đầu."},
+    {"id": "coral", "name": "San Hô Hồng", "color": "#ff7aa0", "req": {"type": "regionSpecies", "region": 2, "count": 20}, "desc": "Bắt đủ 20 loài ở Rạn San Hô."},
+    {"id": "ocean", "name": "Hải Đăng", "color": "#e8e8e8", "req": {"type": "regionSpecies", "region": 3, "count": 20}, "desc": "Bắt đủ 20 loài ở Biển Khơi."},
+    {"id": "frost", "name": "Băng Tuyết", "color": "#9ad8ff", "req": {"type": "regionSpecies", "region": 4, "count": 20}, "desc": "Bắt đủ 20 loài ở Biển Băng."},
+    {"id": "magma", "name": "Dung Nham", "color": "#2a2020", "req": {"type": "regionSpecies", "region": 5, "count": 20}, "desc": "Bắt đủ 20 loài ở Vực Núi Lửa."},
+    {"id": "legend", "name": "Hoàng Kim", "color": "#ffc83a", "req": {"type": "legendaries", "count": 5}, "desc": "Bắt đủ 5 cá huyền thoại."}
+  ]
+}

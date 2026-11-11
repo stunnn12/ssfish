@@ -1,0 +1,9 @@
+[
+  {"id": "catch", "type": "catch", "text": "Câu {n} con cá", "n": [8, 12, 15]},
+  {"id": "uncommon", "type": "minRarity", "rarity": "uncommon", "text": "Câu {n} cá Khá hiếm trở lên", "n": [3, 4, 5]},
+  {"id": "rare", "type": "minRarity", "rarity": "rare", "text": "Câu {n} cá Hiếm trở lên", "n": [1, 2]},
+  {"id": "perfect", "type": "perfect", "text": "Móc chuẩn {n} lần", "n": [3, 5, 6]},
+  {"id": "big", "type": "minSize", "size": 2, "text": "Câu {n} cá cỡ Lớn trở lên", "n": [1, 2]},
+  {"id": "night", "type": "night", "text": "Câu {n} con cá vào ban đêm", "n": [3, 5]},
+  {"id": "sell", "type": "sell", "text": "Bán cá được {n} xu", "fishValue": [6, 10]}
+]

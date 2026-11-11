@@ -1,0 +1,21 @@
+[
+  {"id": "worm", "name": "Giun đất", "type": "infinite", "price": 0, "pack": 1, "waitMult": 1.0, "color": "#e38a7a",
+   "mult": {"uncommon": 1, "rare": 1, "epic": 1, "legendary": 1},
+   "desc": "Mồi cơ bản, dùng mãi không hết."},
+  {"id": "shrimp", "name": "Tôm tươi", "type": "consumable", "price": 30, "pack": 10, "waitMult": 0.9, "color": "#ff9a6a",
+   "mult": {"uncommon": 1.3, "rare": 1.2, "epic": 1, "legendary": 1},
+   "desc": "Tăng nhẹ cá Khá hiếm và Hiếm."},
+  {"id": "lure", "name": "Mồi giả", "type": "permanent", "price": 800, "pack": 1, "waitMult": 0.7, "color": "#5ac8ff",
+   "mult": {"uncommon": 1.5, "rare": 1.3, "epic": 1.1, "legendary": 1},
+   "desc": "Mua 1 lần dùng mãi. Cá cắn nhanh hơn 30%."},
+  {"id": "glow", "name": "Mồi phát sáng", "type": "consumable", "price": 60, "pack": 1, "waitMult": 0.85, "color": "#9dff7a",
+   "mult": {"uncommon": 1.5, "rare": 1, "epic": 1, "legendary": 1},
+   "nightMult": {"rare": 2, "epic": 1.5},
+   "desc": "Ban đêm: Hiếm ×2, Sử thi ×1,5."},
+  {"id": "gold", "name": "Mồi vàng", "type": "consumable", "price": 300, "pack": 1, "waitMult": 0.8, "color": "#ffd23a",
+   "mult": {"uncommon": 1.5, "rare": 2, "epic": 2, "legendary": 1.5},
+   "desc": "Tăng mạnh mọi nhóm cá hiếm."},
+  {"id": "legend", "name": "Mồi huyền thoại", "type": "consumable", "price": 2000, "pack": 1, "waitMult": 0.8, "color": "#c77dff",
+   "mult": {"uncommon": 1, "rare": 1, "epic": 2, "legendary": 4},
+   "desc": "Dành cho săn boss: Huyền thoại ×4."}
+]

@@ -1,0 +1,12 @@
+[
+  {"level": 1, "slots": 10, "price": 0},
+  {"level": 2, "slots": 15, "price": 200},
+  {"level": 3, "slots": 20, "price": 800},
+  {"level": 4, "slots": 30, "price": 2500},
+  {"level": 5, "slots": 40, "price": 8000},
+  {"level": 6, "slots": 55, "price": 25000},
+  {"level": 7, "slots": 70, "price": 70000},
+  {"level": 8, "slots": 90, "price": 180000},
+  {"level": 9, "slots": 120, "price": 450000},
+  {"level": 10, "slots": 150, "price": 1000000}
+]

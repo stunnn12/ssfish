@@ -1,0 +1,40 @@
+{
+  "releasedRegions": 5,
+  "difficultyPriceStep": 0.15,
+  "rarities": {
+    "common":    {"name": "Thường",      "groupPct": 62,  "priceMult": 1,   "diffBonus": 0, "color": "#9aa7b4"},
+    "uncommon":  {"name": "Khá hiếm",    "groupPct": 24,  "priceMult": 2.5, "diffBonus": 1, "color": "#3fb950"},
+    "rare":      {"name": "Hiếm",        "groupPct": 12,  "priceMult": 6,   "diffBonus": 2, "color": "#3b8cff"},
+    "epic":      {"name": "Sử thi",      "groupPct": 1.5, "priceMult": 15,  "diffBonus": 3, "color": "#b062ff"},
+    "legendary": {"name": "Huyền thoại", "groupPct": 0.5, "priceMult": 50,  "diffBonus": 4, "color": "#ff9f1a"}
+  },
+  "sizes": [
+    {"name": "Nhỏ",      "chance": 50, "mult": 0.8, "slots": 1, "scale": 0.75},
+    {"name": "Vừa",      "chance": 35, "mult": 1,   "slots": 1, "scale": 1},
+    {"name": "Lớn",      "chance": 12, "mult": 1.5, "slots": 1, "scale": 1.4},
+    {"name": "Khổng lồ", "chance": 3,  "mult": 3,   "slots": 2, "scale": 2.2}
+  ],
+  "spotFavorWeight": 1.8,
+  "cast": {"minDist": 10, "maxDist": 36, "depthRareBonus": 0.25, "chargeSpeed": 0.9},
+  "bite": {"waitMin": 3, "waitMax": 10, "window": 0.6, "perfectWindow": 0.3, "perfectBonus": 0.1, "earlyTapPenalty": 1.2, "schoolWaitMult": 0.15},
+  "reel": {
+    "greenMin": 0.3, "greenMax": 0.72, "redMin": 0.85, "margin": 2,
+    "baseDist": 18, "distPerDiff": 3.5, "castDistBonus": 10, "escapeSlack": 12,
+    "holdBase": 0.55, "holdPerE": 0.025, "releaseBase": 0.12, "releaseThrashMult": 1.0,
+    "riseRate": 4.0, "fallRate": 3.5,
+    "thrashBase": 0.32, "thrashPerE": 0.07,
+    "thrashEveryBase": 3.6, "thrashEveryPerE": 0.45,
+    "thrashDurBase": 0.9, "thrashDurPerE": 0.1,
+    "telegraphBase": 0.5, "telegraphPerE": 0.06,
+    "kickBase": 0.04, "kickPerE": 0.035,
+    "feintBase": 0.06, "feintPerE": 0.06,
+    "pullBase": 0.6, "pullPerE": 0.15, "thrashPullMult": 1.8,
+    "strainRecover": 0.3
+  },
+  "clock": {"realSecondsPerDay": 720, "startHour": 7, "nightStart": 19, "nightEnd": 5},
+  "weather": {"sun": 60, "rain": 30, "storm": 10, "minHours": 2, "maxHours": 5},
+  "fatigue": {"step": 0.05, "max": 0.3, "resetDays": 1},
+  "travel": {"eventChance": 0.3, "school": 40, "chest": 40, "storm": 20, "schoolCasts": 3, "stormDelay": 0.6, "extraLegFactor": 0.5},
+  "rewards": {"questFishCount": 7, "milestoneEvery": 10, "milestoneFishCount": 10},
+  "boatSpeciesRequirement": 10
+}

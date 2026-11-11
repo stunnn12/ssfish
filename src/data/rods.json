@@ -1,0 +1,12 @@
+[
+  {"level": 1, "name": "Cần tre", "power": 1, "redTolerance": 1.5, "reelSpeed": 4.5, "price": 0, "color": "#c8a85a"},
+  {"level": 2, "name": "Cần tre tốt", "power": 2, "redTolerance": 1.6, "reelSpeed": 5.0, "price": 150, "color": "#b8964a"},
+  {"level": 3, "name": "Cần gỗ sồi", "power": 3, "redTolerance": 1.7, "reelSpeed": 5.5, "price": 500, "color": "#8a5a3a"},
+  {"level": 4, "name": "Cần sợi thủy tinh", "power": 4, "redTolerance": 1.8, "reelSpeed": 6.0, "price": 1500, "color": "#e6eef2"},
+  {"level": 5, "name": "Cần carbon", "power": 5, "redTolerance": 2.0, "reelSpeed": 6.5, "price": 5000, "color": "#2a2e36"},
+  {"level": 6, "name": "Cần biển khơi", "power": 6, "redTolerance": 2.2, "reelSpeed": 7.0, "price": 15000, "color": "#2a6ab0"},
+  {"level": 7, "name": "Cần thép", "power": 7, "redTolerance": 2.4, "reelSpeed": 7.5, "price": 45000, "color": "#9aa4b0"},
+  {"level": 8, "name": "Cần băng tinh", "power": 8, "redTolerance": 2.6, "reelSpeed": 8.0, "price": 120000, "color": "#9ad8ff"},
+  {"level": 9, "name": "Cần titan", "power": 9, "redTolerance": 2.8, "reelSpeed": 8.5, "price": 300000, "color": "#c0c8d8"},
+  {"level": 10, "name": "Cần Rồng Biển", "power": 10, "redTolerance": 3.0, "reelSpeed": 9.0, "price": 750000, "color": "#ff5a3a"}
+]
